@@ -1,35 +1,3 @@
-
-Skip to content
-Pull requests
-Issues
-Marketplace
-Explore
-@komalswami
-ajahuang /
-UVa
-
-4
-43
-
-    34
-
-Code
-Issues
-Pull requests 1
-Actions
-Projects
-Wiki
-Security
-
-    Insights
-
-UVa/UVa 10189 - Minesweeper.cpp
-@ajahuang
-ajahuang Rename all files.
-Latest commit 4c14a0b on Oct 21, 2013
-History
-1 contributor
-42 lines (39 sloc) 1.1 KB
 #include <iostream>
 #include <vector>
 using namespace std;
