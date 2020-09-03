@@ -1,7 +1,7 @@
 #include<iostream>
 #include<vector>
 using namespace std;
-char a[100][100];
+int a[100][100];
 int rows,cols;
 int isinside(int i,int j)
 {
@@ -43,11 +43,10 @@ int main()
     a[i][j]=0;
     for(i=0;i<rows-1;i++)
     {
-        
         for(j=0;j<cols-1;j++)
         {
-            char currentchar=cin>>a[i][j];
-            if(currentchar=="*")
+            cin>>a[i][j];
+            if(a[i][j]=='*')
                 setmine(i,j);
         }
     }
