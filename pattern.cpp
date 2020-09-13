@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 void printOccurrences(string txt, string pat)
 {
     int found = txt.find(pat);
@@ -13,7 +12,7 @@ void printOccurrences(string txt, string pat)
 int main()
 {
     string txt,pat;
-    cin>>txt;
+    getline(cin,txt);
     cin>>pat;
     printOccurrences(txt, pat);
     return 0;
