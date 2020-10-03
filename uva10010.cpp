@@ -1,4 +1,4 @@
-<pre>#include <iostream>
+#include <iostream>
 #include <cstdio>
 #include <algorithm>
 #include <cstring>
